@@ -25,6 +25,7 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
+        System.out.println("Enter two integer numbers to perform calulation");
         Scanner in= new Scanner(System.in);
         int n= in.nextInt();
         int m= in.nextInt();
